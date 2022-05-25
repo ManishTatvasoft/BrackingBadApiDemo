@@ -1,0 +1,6 @@
+framework module Pods_DemoBreakingBadSeries {
+  umbrella header "Pods-DemoBreakingBadSeries-umbrella.h"
+
+  export *
+  module * { export * }
+}
