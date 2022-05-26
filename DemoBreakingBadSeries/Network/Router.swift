@@ -32,7 +32,7 @@ extension Router: Routable{
         case .characters:
             return Environment.APIBasePath() + "characters"
         case .episodes:
-            return Environment.APIBasePath() + "episodes"
+            return Environment.APIBasePath() + "episodes?series=Breaking+Bad"
         case .quotes:
             return Environment.APIBasePath() + "quotes"
         case .deaths:

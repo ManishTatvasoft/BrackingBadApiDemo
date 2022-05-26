@@ -126,7 +126,8 @@ final class APIManager: NSObject{
                 do {
                     let res = try JSONDecoder().decode(type.self, from: data)
                     successCompletion(res)
-                } catch _{
+                } catch let err{
+                    print(err.localizedDescription)
                     failureCompletion(WebError.serviceUnavailable,  String.Title.internalServerError)
                 }
             }else{

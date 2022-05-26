@@ -52,7 +52,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableAllData.deselectRow(at: indexPath, animated: true)
-        navigator.moveToCharecterListScreen()
+        navigator.moveToCharecterListScreen(at: indexPath.row)
     }
     
 }

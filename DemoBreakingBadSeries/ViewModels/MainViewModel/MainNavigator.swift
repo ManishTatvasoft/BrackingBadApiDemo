@@ -19,9 +19,23 @@ final class MainNavigator {
 
 extension MainNavigator{
     
-    func moveToCharecterListScreen(){
-        let vc = UIStoryboard.charecterList.get(CharacterListViewController.self)!
-        self.controller.navigationController?.pushViewController(vc, animated: true)
+    func moveToCharecterListScreen(at index: Int){
+        switch index{
+        case 0:
+             print("")
+            let vc = UIStoryboard.charecterList.get(CharacterListViewController.self)!
+            self.controller.navigationController?.pushViewController(vc, animated: true)
+        case 1:
+            print("")
+            let vc = UIStoryboard.episodes.get(EpisodesViewController.self)!
+            self.controller.navigationController?.pushViewController(vc, animated: true)
+        case 2:
+            print("")
+        default:
+            print("")
+        }
+//        let vc = UIStoryboard.charecterList.get(CharacterListViewController.self)!
+//        self.controller.navigationController?.pushViewController(vc, animated: true)
     }
     
 }

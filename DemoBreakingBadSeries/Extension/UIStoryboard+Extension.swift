@@ -17,7 +17,10 @@ extension UIStoryboard {
         return storyboard
     }()
     
-    
+    static var episodes: UIStoryboard = {
+        let storyboard = UIStoryboard.storyboard(name: "Episodes")
+        return storyboard
+    }()
     
     // to get particular storyboard name.
     class func storyboard(name: String) -> UIStoryboard {
