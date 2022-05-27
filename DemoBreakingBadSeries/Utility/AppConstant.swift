@@ -21,9 +21,6 @@ extension String {
         static let internalServerError                  = "Internal Server Error"
         static let invalidUrl                           = "Invalid Url"
         static let jsonparseFail                        = "Json Parse error"
-        
-        
-        
         static let ok                                   = "OK"
     }
 }

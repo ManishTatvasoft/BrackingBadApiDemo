@@ -238,12 +238,11 @@
 			isa = PBXGroup;
 			children = (
 				FCB398D8283E0D3E002D0564 /* Network */,
-				FCB398D7283E0D19002D0564 /* ViewModels */,
 				FCB398D0283E0C5E002D0564 /* Model */,
 				FCB398D5283E0CDB002D0564 /* Views */,
+				FCB398D7283E0D19002D0564 /* ViewModels */,
 				FCB398D4283E0C9F002D0564 /* Utility */,
 				FCB398D3283E0C96002D0564 /* Extension */,
-				FCB398D1283E0C6A002D0564 /* Controller */,
 				FCB398D2283E0C73002D0564 /* Storyboard */,
 				FCB398A0283E0C4A002D0564 /* AppDelegate.swift */,
 				FCB398A2283E0C4A002D0564 /* SceneDelegate.swift */,
@@ -336,6 +335,7 @@
 			isa = PBXGroup;
 			children = (
 				FCB398D6283E0CF3002D0564 /* Cell */,
+				FCB398D1283E0C6A002D0564 /* Controller */,
 			);
 			path = Views;
 			sourceTree = "<group>";
