@@ -22,17 +22,17 @@ extension MainNavigator{
     func moveToCharecterListScreen(at index: Int){
         switch index{
         case 0:
-             print("")
             let vc = UIStoryboard.charecterList.get(CharacterListViewController.self)!
             self.controller.navigationController?.pushViewController(vc, animated: true)
         case 1:
-            print("")
             let vc = UIStoryboard.episodes.get(EpisodesViewController.self)!
             self.controller.navigationController?.pushViewController(vc, animated: true)
         case 2:
-            print("")
+            let vc = UIStoryboard.quotes.get(QuotesViewController.self)!
+            self.controller.navigationController?.pushViewController(vc, animated: true)
         default:
-            print("")
+            let vc = UIStoryboard.death.get(DeathViewController.self)!
+            self.controller.navigationController?.pushViewController(vc, animated: true)
         }
 //        let vc = UIStoryboard.charecterList.get(CharacterListViewController.self)!
 //        self.controller.navigationController?.pushViewController(vc, animated: true)
